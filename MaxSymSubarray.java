@@ -26,31 +26,4 @@ public class MaxSymSubarray {
         }
         return maxSum;
     }
-	
-	public String sortVowels(String s) {
-        // write your code here
-        List<Character> list = new ArrayList<>();
-        
-        for(int idx = 0; idx < s.length(); idx++){
-            if(s.charAt(idx) == 'a' || s.charAt(idx) == 'e' || s.charAt(idx) == 'i'
-               || s.charAt(idx) == 'o' || s.charAt(idx) == 'u' || s.charAt(idx) == 'A' ||
-               s.charAt(idx) == 'O' || s.charAt(idx) == 'U' || s.charAt(idx) == 'E' ||
-               s.charAt(idx) == 'I'){
-                   list.add(s.charAt(idx));
-               }
-        }
-        
-        Collections.sort(list);
-        int count = 0;
-        for(int idx = 0; idx < s.length(); idx++){
-            if(s.charAt(idx) == 'a' || s.charAt(idx) == 'e' || s.charAt(idx) == 'i'
-               || s.charAt(idx) == 'o' || s.charAt(idx) == 'u' || s.charAt(idx) == 'A' ||
-               s.charAt(idx) == 'O' || s.charAt(idx) == 'U' || s.charAt(idx) == 'E' ||
-               s.charAt(idx) == 'I'){
-                   s = s.replace(s.charAt(idx), list.get(count++));
-               }
-        }
-        
-        return s;
-    }
 }
