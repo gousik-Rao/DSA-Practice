@@ -13,7 +13,7 @@ public class ReverseString {
 	static public void reverseString(char[] s) {
         reverse(s, 0, s.length - 1);
     }
-
+	
     static void reverse(char[] s, int left, int right){
         if(left >= right){
             return;
@@ -23,8 +23,6 @@ public class ReverseString {
         s[left] = s[right];
         s[right] = temp;
 
-        if(left < right) {
-        	reverse(s, left++, right--);
-        }
+        reverse(s, ++left, --right);
     }
 }
