@@ -3,6 +3,10 @@ package pack.DSA.Week2;
 import java.util.Stack;
 
 public class BalancedParenthesis {
+	
+	public static void main(String[] args) {
+		System.out.println(isBalancedParentheses("()"));
+	}
 
 	static boolean isBalancedParentheses(String str) {
 	    // add your logic here
