@@ -6,7 +6,7 @@ public class SumOfManhattenDistances {
 
 	public static void main(String[] args) {
 		System.out.println(totalDistanceSum(
-				new int[] {-1, 1, 3, 2}, new int[] {5, 6, 5, 3}, 4));
+				new int[] {-5, -2, 0}, new int[] {3, 1, -1}, 3));
 	}
 	
 	static int distanceSum(int[] arr, int n) {
