@@ -24,9 +24,8 @@ public class FibonacciNumUsingRecursion {
 		return dp[n] = fib(n - 1, dp) + fib(n - 2, dp);
 	}
 	
-	static public int fib(int n) {
-		
-//		Tabulation (Bottom - Up DP approach)
+//	Tabulation (Bottom - Up DP approach)
+	static public int fib(int n) {		
 		int one = 0, two = 1;
 		for(int idx = 2; idx <= n; idx++) {
 			int temp = one + two;
