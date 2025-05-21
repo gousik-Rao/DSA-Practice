@@ -6,7 +6,7 @@ public class SumOfManhattenDistances {
 
 	public static void main(String[] args) {
 		System.out.println(totalDistanceSum(
-				new int[] {-5, -2, 0}, new int[] {3, 1, -1}, 3));
+				new int[] {-1, 1, 3, 2}, new int[] {5, 6, 5, 3}, 4));
 	}
 	
 	static int distanceSum(int[] arr, int n) {
@@ -22,6 +22,10 @@ public class SumOfManhattenDistances {
 			sum += arr[idx];
 		}
 		
+		return res;
+	}
+	
+	static int totalDistanceSum(int[] x, int[] y, int n) {
 		
 //		Naive Approach (Brute - Force)
 		
@@ -33,10 +37,6 @@ public class SumOfManhattenDistances {
 //			}
 //		}
 		
-		return res;
-	}
-	
-	static int totalDistanceSum(int[] x, int[] y, int n) {
 		return distanceSum(x, n) + distanceSum(y, n);
 	}
 }
