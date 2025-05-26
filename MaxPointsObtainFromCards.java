@@ -6,6 +6,7 @@ public class MaxPointsObtainFromCards {
 		System.out.println(maxScore(new int[] {9, 7, 7, 9, 7, 7, 9}, 7));
 	}
 	
+//	Taking elements from the front and the back
 	static public int maxiScore(int[] arr, int k) {
 		int lSum = 0, rSum = 0, maxSum = 0;
 		
@@ -24,6 +25,7 @@ public class MaxPointsObtainFromCards {
 		return maxSum;
 	}
 
+//	With window size of n - k
 	static public int maxScore(int[] arr, int k) {
 		int n = arr.length;
 		int i = 0, j = n - k;
