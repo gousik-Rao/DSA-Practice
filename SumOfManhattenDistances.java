@@ -10,19 +10,19 @@ public class SumOfManhattenDistances {
 	}
 	
 	static int distanceSum(int[] arr, int n) {
-		int sum = 0, res = 0;
-		
+		long sum = 0, res = 0;
+		int MOD = 1_000_000_007;
 //		Efficient way
 		
 		Arrays.sort(arr); // O(N log N) for sorting
 		
 //		O(N) for the loop as it iterates through all the elements
 		for(int idx = 0; idx < n; idx++) {
-			res += arr[idx] * idx - sum;
+			res = (res + (1L * arr[idx] * idx - sum)) % MOD;
 			sum += arr[idx];
 		}
 		
-		return res;
+		return (int)res;
 	}
 	
 	static int totalDistanceSum(int[] x, int[] y, int n) {
