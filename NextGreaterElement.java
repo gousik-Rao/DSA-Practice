@@ -1,8 +1,9 @@
 package pack.DSA.Week6;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Stack;
+import java.util.Deque;
 
 public class NextGreaterElement {
 
@@ -11,7 +12,7 @@ public class NextGreaterElement {
 	}
 	
 	static public ArrayList<Integer> nextLargeElement(int[] arr){
-		Stack<Integer> st = new Stack<>();
+		Deque<Integer> st = new ArrayDeque<>();
 		ArrayList<Integer> res = new ArrayList<>(Collections.nCopies(arr.length, -1));                       
 		
 		for(int idx = 0; idx < arr.length; idx++) {

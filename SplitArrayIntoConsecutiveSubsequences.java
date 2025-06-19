@@ -19,7 +19,7 @@ public class SplitArrayIntoConsecutiveSubsequences {
 		for(int x  :arr) {
 			if(availableMap.get(x) <= 0) continue;
 			
-//			First we try to extend teh subsequence ending with x - 1
+//			First we try to extend the subsequence ending with x - 1
 			else if(vacancyMap.getOrDefault(x, 0) > 0) {
 				
 				// Extend subsequence
