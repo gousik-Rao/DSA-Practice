@@ -38,7 +38,7 @@ public class MaxSumSubarrayOfSizeK {
 	
 	public static void main(String[] args) {
 		System.out.println(
-				optimal(
+				bruteForce(
 						new int[] {100, 200, 300, 400}, 2)
 				);
 	}
