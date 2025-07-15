@@ -12,8 +12,9 @@ public class SlidingWindowMaximum {
 		System.out.println(
 				Arrays.toString(
 						maxSlidingWindow(
-								new int[] {1, 2, 3, 1, 4, 5, 2, 3, 6}, 3)
-						));
+								new int[] {1, 2, 3, 1, 4, 5, 2, 3, 6}, 3
+						)
+			));
 	}
 	
 	static public int[] bruteForce(int[] nums, int k) {
