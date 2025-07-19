@@ -1,10 +1,8 @@
-
 ---
 
-### ✨ Week 5: Dynamic Programming & Greedy Algorithms
-- 🔗 Mastered foundational DP problems like Fibonacci, knapsack, and coin change.
-- 🍰 Learned to break problems into overlapping subproblems and optimal substructure.
-- ⚡ Explored greedy strategies for interval scheduling, activity selection, and more.
-- 🏆 Compared DP and greedy approaches on classic interview questions.
+### 🚦 Week 5: Sliding Window & Two Pointers
+- 🔍 Mastered the sliding window technique for efficient subarray/substring problems.
+- 🏃‍♂️ Explored two-pointer strategies for array and string manipulation.
+- 🚀 Solved problems like maximum sum subarrays, target sums, and palindrome checks.
 
 ---
