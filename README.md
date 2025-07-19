@@ -1,5 +1,10 @@
-## Week 5: Sliding Window and Two Pointers
 
-- Practiced optimal subarray problems using fixed and variable window sizes.
-- Solved common two-pointer problems like pair sums, 3Sum, remove duplicates, etc.
-- Focused on edge case analysis and efficient pointer movement logic.
+---
+
+### ✨ Week 5: Dynamic Programming & Greedy Algorithms
+- 🔗 Mastered foundational DP problems like Fibonacci, knapsack, and coin change.
+- 🍰 Learned to break problems into overlapping subproblems and optimal substructure.
+- ⚡ Explored greedy strategies for interval scheduling, activity selection, and more.
+- 🏆 Compared DP and greedy approaches on classic interview questions.
+
+---
