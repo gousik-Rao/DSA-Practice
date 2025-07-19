@@ -1,4 +1,4 @@
-package pack.DSA.Week2;
+package pack.DSA.Week2.Sorting;
 
 import java.util.Arrays;
 

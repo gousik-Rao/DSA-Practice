@@ -1,4 +1,4 @@
-package pack.DSA.Week2;
+package pack.DSA.Week2.Sorting;
 
 public class CountingInversionsUsingMergeSort {
 
